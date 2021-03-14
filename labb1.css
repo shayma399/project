@@ -1,0 +1,295 @@
+
+body{
+    margin-left: 100px;
+    margin-right: 100PX;
+}
+.logo{
+			font-size: 2em;
+			margin: auto 0px;
+			color: #d3d026;
+			margin-top: 10PX;
+      width: auto;
+			font-family: Cursive, "Brush Script MT"
+		}
+.nav{
+  width: 600px;
+  height: 50px; 
+  display: flex; 
+}
+.LIST{
+    
+			list-style-type: none;
+			display: flex;
+			width: 800px;
+			margin-left: 600px;
+
+}
+.li {
+			text-decoration: none;
+			color: rgb(167, 156, 95);
+			font-size: 15PX;
+			font-family: "garamond", sans-serif;
+			font-size: bold;
+			font-family: Cursive, "Brush Script MT";
+            padding-left : 14px;
+           padding-right: 14px;;
+		}
+        
+
+.intro{
+    
+    margin: 0 auto ;
+    width:300PX;
+    height: 70x;
+   padding-top:100px;
+   text-align: center;
+   font-family: Cursive, "Brush Script MT";
+   color: rgb(167, 156, 95);
+   animation-duration: 5s;
+  animation-name: slide;
+  animation-iteration-count: 1;
+}
+.SUBintro{
+    padding-top: 10px;
+    width:300PX;
+    height: 70x;
+    margin: 0 auto ;
+    text-align: center;
+    opacity: 70%;
+    font-family: Cursive, "Brush Script MT";
+    animation-duration: 5s;
+  animation-name: slide;
+  animation-iteration-count: 1;
+}
+@keyframes slide {
+  from {
+    margin-left:70%;
+    width: 100%;
+  }
+}
+.start{
+    margin-top: 100px;
+    font-family: Cursive, "Brush Script MT";
+    display: flex;
+}
+.tst1{
+  font-family: Cursive, "Brush Script MT";
+   text-align: center;
+}
+.tst{
+    font-family: Cursive, "Brush Script MT";
+   text-align: center;}
+#first{
+    margin-left: 200px;
+    height: 450PX;
+    margin-top:100px;
+    width:50%;
+   opacity:40%;
+   display: flex;
+    margin-bottom:100PX ;
+    animation-name: first;
+    animation-duration:100000000s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    text-shadow:  5px 5px 8px #caa62d;
+
+}
+@keyframes first {
+    from{
+    opacity:100%;
+}}
+ .unities{
+     margin-top: 10px;
+     display: flex;
+ }  
+.mesurment{
+    color: white;
+    background-color: rgb(167, 156, 95);
+    font-family: Cursive, "Brush Script MT";
+    margin-right: 5px;
+    border: 2px  solid transparent ;
+    width: 50px;
+	border-radius: 7px;
+  
+}
+
+.researche {
+  color: white;
+    background-color: rgb(167, 156, 95);
+    font-family: Cursive, "Brush Script MT";
+    margin-right: 5px;
+    border: 2px  solid transparent ;
+    width: 150px;
+	border-radius: 7px;
+  text-align: center;
+  outline: none;
+}
+
+.mayathink{
+    margin-left: 370PX;
+    padding-top: 28px;
+}
+.ste{
+    margin: 0 auto;
+    width: 25%;
+    display: flex;
+    font-family: Cursive, "Brush Script MT";
+}
+.ste1{
+   display: flex;
+    width: 25%;
+    display: flex;
+    font-family: Cursive, "Brush Script MT"
+}
+#affichage{
+  max-width:900px;
+  height: 400px;
+ display: flex;
+ margin-left: 330px;
+ padding-top: 30px;
+ padding-left:50px;
+}
+.deco{
+    color:rgb(167, 156, 95) ;
+    font-family: Cursive, "Brush Script MT"
+}
+#maya span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 0.7em;
+}
+#arrow_left {
+  margin-top: 80px;
+  margin-right: 20px;
+  display: inline-block;
+ outline: none;
+  font-size:20px;
+  cursor: pointer;
+  width: 7px;
+
+  
+ 
+  
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 9px #999;
+}
+#arrow_right{
+  margin-top:80px;
+  margin-left: 20px;
+ 
+  outline: none;
+  font-size:20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 9px #999;
+}
+
+#arrow_right:hover {
+  background-color:#c7c421
+}
+
+#arrow_right:active {
+  background-color:#c7c421;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#arrow_left:hover {
+  background-color:#c7c421
+}
+
+#arrow_left:active {
+  background-color: #c7c421;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.dropbtn {
+ 
+  color: #dbbe1b;
+  font-family: Cursive, "Brush Script MT";
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: Cursive, "Brush Script MT";
+
+  color: #dbbe1b;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+#maya span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#maya:hover span {
+  padding-right: 25px;
+}
+
+#maya:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#maya{ 
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  outline: none;
+}
+.TIPS{
+    margin-top: 100px;
+    display: flex
+
+}
+.AGE{
+    text-align: center;
+    font-family: Cursive, "Brush Script MT";
+}
+.bodyinfo{
+  display:flex;
+  margin-left: 50PX;
+  margin-right: 250px;
+}
+       
